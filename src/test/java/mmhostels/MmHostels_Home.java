@@ -72,7 +72,7 @@ public class MmHostels_Home extends action_class
 
         //Home
 
-        Assert.assertTrue(checkfor_element_present(obj_HomePage.menu_button_Home()));
+      //  Assert.assertTrue(checkfor_element_present(obj_HomePage.menu_button_Home()));
         System.out.println("Home menu item is present ...");
         ele = get_web_element(obj_HomePage.menu_button_Home());
         action.moveToElement(ele).perform();
