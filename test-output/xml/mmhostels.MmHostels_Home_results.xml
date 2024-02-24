@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MMHostels_Main"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.926">
+    <properties></properties>
+
+
+
+            <testcase
+                name="menu_mousehover"
+                time="17.807"
+                classname="mmhostels.MmHostels_Home">
+            </testcase>
+            <testcase
+                name="mmhostels_page_validation"
+                time="0.051"
+                classname="mmhostels.MmHostels_Home">
+            </testcase>
+            <testcase
+                name="mobile_email_validation"
+                time="0.068"
+                classname="mmhostels.MmHostels_Home">
+            </testcase>
+</testsuite>

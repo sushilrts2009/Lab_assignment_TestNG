@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validate Amenities"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.348">
+    <properties></properties>
+
+
+
+            <testcase
+                name="validate_amenities"
+                time="23.348"
+                classname="mmhostels.Amenities">
+            </testcase>
+</testsuite>

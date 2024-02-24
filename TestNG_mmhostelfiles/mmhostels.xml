@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="smoke" verbose="1">
+
+
+    <test name="MMHostels_Main">
+
+        <parameter name="url" value="https://mmhostels.com/"></parameter>
+        <parameter name="mobile" value="+91 6355 655221"></parameter>
+        <parameter name="email" value="info@mmhostels.com"></parameter>
+        <parameter name="boys_pg_url_string" value="manmandir-boys-pg-navrangpura"></parameter>
+        
+        <parameter name="sav_fname" value="John"></parameter>
+        <parameter name="sav_lname" value="Ashish"></parameter>
+        <parameter name="sav_email" value="John_Ashish@testmail.com"></parameter>
+        <parameter name="sav_mobile" value="0987654321"></parameter>
+        <parameter name="sav_yourmessage" value="Kindly arrange a visit asap you get a chance"></parameter>
+       
+        <classes>
+             <class name="mmhostels.MmHostels_Home" />
+        </classes>
+    </test>
+    
+    <test name="Validate Amenities">
+        <parameter name="url" value="https://mmhostels.com/"></parameter>
+        <parameter name="param_amenities" value="Free Wifi, FIRE SAFETY, LIFT FACILITY, CAR PARKING, 24*7 ELECTRICITY, LAUNDRY, COOKING, AIR CONDITIONER, 24*7 WATER, ELECTRICITY INCLUDED IN RENT, FRIDGE, GYSER, CCTV, TWO WHEELER PARKING  "></parameter>
+
+        <classes>
+            <class name="mmhostels.Amenities"></class>
+        </classes>
+        
+    </test>
+
+</suite>
