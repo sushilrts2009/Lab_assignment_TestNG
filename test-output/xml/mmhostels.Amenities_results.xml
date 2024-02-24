@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="23.348">
+           time="23.698">
     <properties></properties>
 
 
 
             <testcase
                 name="validate_amenities"
-                time="23.348"
+                time="23.698"
                 classname="mmhostels.Amenities">
             </testcase>
 </testsuite>

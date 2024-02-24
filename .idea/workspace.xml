@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6c088e-e3ab-4a52-9ca3-8870bca6acc5" name="Changes" comment="" />
+    <list default="true" id="0e6c088e-e3ab-4a52-9ca3-8870bca6acc5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/mmhostels.Amenities_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/mmhostels.Amenities_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/mmhostels.MmHostels_Home_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/mmhostels.MmHostels_Home_results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -34,7 +34,7 @@ public class MmHostels_Home extends action_class
         driver = getDriver();
         driver.manage().window().maximize();
         driver.get(url);
-        Thread.sleep(3000);
+        Thread.sleep(10000);
     }
 
     @AfterClass
@@ -76,28 +76,28 @@ public class MmHostels_Home extends action_class
         System.out.println("Home menu item is present ...");
         ele = get_web_element(obj_HomePage.menu_button_Home());
         action.moveToElement(ele).perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         //About Us
         ele = get_web_element(obj_HomePage.menu_button_AboutUs());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("About Us menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         //Amenities
         ele = get_web_element(obj_HomePage.menu_button_Amenities());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("Amenities menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         //PG Locations
         ele = get_web_element(obj_HomePage.menu_button_PG_Location());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("PG Location menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         // menu items of PG locations
         ele_b = get_web_element(obj_HomePage.Menu_item_Boys());
@@ -108,7 +108,7 @@ public class MmHostels_Home extends action_class
         {
             action.moveToElement(ele_b).perform();
             ele_b.click();
-            Thread.sleep(1000);
+            Thread.sleep(5000);
             System.out.println("The Boys pg sub menu item url is clicked: ");
             href_Boys = driver.findElement(obj_HomePage.Menu_item_Boys()).getAttribute("href");
             System.out.println("The href url is : " + href_Boys);
@@ -135,7 +135,7 @@ public class MmHostels_Home extends action_class
         System.out.println("Page will scroll to Schedule a Visit..");
         WebElement element = driver.findElement(obj_mbpg.Schedule_a_Visit_Text());
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
 
         //Enter data to Schedule a visit

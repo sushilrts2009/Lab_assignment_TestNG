@@ -60,7 +60,7 @@ public class Amenities extends action_class{
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("PG Location menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         // menu items of PG locations
         ele_b = get_web_element(obj_HomePage.Menu_item_Boys());
@@ -71,7 +71,7 @@ public class Amenities extends action_class{
         {
             action.moveToElement(ele_b).perform();
             ele_b.click();
-            Thread.sleep(1000);
+            Thread.sleep(5000);
             System.out.println("The Boys pg sub menu item url is clicked: ");
         }
 
@@ -79,7 +79,7 @@ public class Amenities extends action_class{
         System.out.println("Page will scroll to Amenities..");
         WebElement element = driver.findElement(obj_HomePage.text_Amenities());
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        Thread.sleep(4000);
+        Thread.sleep(5000);
 
 
         String amenity_name=null;
