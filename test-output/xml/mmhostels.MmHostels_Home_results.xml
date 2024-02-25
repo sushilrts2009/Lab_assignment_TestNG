@@ -4,24 +4,24 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="18.126">
+           time="20.978">
     <properties></properties>
 
 
 
             <testcase
                 name="menu_mousehover"
-                time="17.998"
-                classname="mmhostels.MmHostels_Home">
-            </testcase>
-            <testcase
-                name="mmhostels_page_validation"
-                time="0.046"
+                time="20.286"
                 classname="mmhostels.MmHostels_Home">
             </testcase>
             <testcase
                 name="mobile_email_validation"
-                time="0.082"
+                time="0.064"
+                classname="mmhostels.MmHostels_Home">
+            </testcase>
+            <testcase
+                name="mmhostels_page_validation"
+                time="0.628"
                 classname="mmhostels.MmHostels_Home">
             </testcase>
 </testsuite>

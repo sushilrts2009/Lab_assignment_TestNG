@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6c088e-e3ab-4a52-9ca3-8870bca6acc5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_mmhostelfiles/mmhostels.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_mmhostelfiles/mmhostels.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/action/action_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/action/action_class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/mmhostels.Amenities_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/mmhostels.Amenities_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/mmhostels.MmHostels_Home_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/mmhostels.MmHostels_Home_results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sushi/IdeaProjects/TestNG_Maven_Project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sushi/IdeaProjects/MMHostels_TestNG&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/sushi/IdeaProjects/MMHostels_TestNG/TestNG_mmhostelfiles/mmhostels.xml">
     <configuration name="C:/Users/sushi/IdeaProjects/MMHostels_TestNG/TestNG_mmhostelfiles/mmhostels.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MMHostels_TestNG" />

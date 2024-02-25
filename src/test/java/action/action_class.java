@@ -1,13 +1,18 @@
 package action;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.io.FileHandler;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
 
 public class action_class {
+
+    public static final String screenshotpath= System.getProperty("user.dir") + "/screenshots/";
 
     public WebDriver driver = null;
 
@@ -83,8 +88,14 @@ public class action_class {
         catch (Exception e)
         {
             e.printStackTrace();
+
         }
         return flag;
+    }
+
+    public void capture_screenshot()
+    {
+
     }
 
     public int size_count_elements(By by)
@@ -116,6 +127,30 @@ public class action_class {
             e.printStackTrace();
         }
         return flag;
+    }
+
+    public boolean validateElementPresentwithScreenshot(By by, String screenshotName){
+        boolean flag = false;
+        try{
+            driver.findElement(by).isDisplayed();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+            flag = true;
+        }
+        catch (Exception e){
+            captureScreenshot(screenshotName);
+            e.printStackTrace();
+        }
+        return flag;
+    }
+    public void captureScreenshot(String screenshotName) {
+        //Take the screenshot
+        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        //Copy the file to a location and use try catch block to handle exception
+        try {
+            FileHandler.copy(screenshot, new File(screenshotpath +"/"+ screenshotName+".png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 }

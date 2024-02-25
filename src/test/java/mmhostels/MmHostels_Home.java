@@ -53,7 +53,10 @@ public class MmHostels_Home extends action_class
         System.out.println("Validating HomePage Logo of top left corner");
         System.out.println("Task1 : Validate Logo");
 
-        Assert.assertTrue(checkfor_element_present(obj_HomePage.mmnmandir_logo()));
+     //   checkfor_element_present(obj_HomePage.mmnmandir_logo());
+        validateElementPresentwithScreenshot(obj_HomePage.mmnmandir_logo(), "logo");
+
+      //  Assert.assertTrue(checkfor_element_present(obj_HomePage.mmnmandir_logo()));
         System.out.println("Logo MANMANDIR Logo Present");
 
     }
@@ -76,28 +79,28 @@ public class MmHostels_Home extends action_class
         System.out.println("Home menu item is present ...");
         ele = get_web_element(obj_HomePage.menu_button_Home());
         action.moveToElement(ele).perform();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         //About Us
         ele = get_web_element(obj_HomePage.menu_button_AboutUs());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("About Us menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         //Amenities
         ele = get_web_element(obj_HomePage.menu_button_Amenities());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("Amenities menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         //PG Locations
         ele = get_web_element(obj_HomePage.menu_button_PG_Location());
         Assert.assertTrue(ele.isDisplayed());
         System.out.println("PG Location menu item is present ...");
         action.moveToElement(ele).perform();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         // menu items of PG locations
         ele_b = get_web_element(obj_HomePage.Menu_item_Boys());
@@ -108,7 +111,7 @@ public class MmHostels_Home extends action_class
         {
             action.moveToElement(ele_b).perform();
             ele_b.click();
-            Thread.sleep(5000);
+            Thread.sleep(3000);
             System.out.println("The Boys pg sub menu item url is clicked: ");
             href_Boys = driver.findElement(obj_HomePage.Menu_item_Boys()).getAttribute("href");
             System.out.println("The href url is : " + href_Boys);
@@ -166,7 +169,7 @@ public class MmHostels_Home extends action_class
         // End
 
         typeInTExtBox(obj_sav.input_text_Your_Message(), sav_yourmessage);
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
             }
 
