@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6c088e-e3ab-4a52-9ca3-8870bca6acc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/global.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG_mmhostelfiles/mmhostels.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_mmhostelfiles/mmhostels.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/action/action_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/action/action_class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/Amenities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mmhostels/MmHostels_Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />

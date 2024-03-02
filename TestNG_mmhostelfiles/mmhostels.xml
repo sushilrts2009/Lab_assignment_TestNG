@@ -21,7 +21,7 @@
         </classes>
     </test>
     
-<!--    <test name="Validate Amenities">
+    <test name="Validate Amenities">
         <parameter name="url" value="https://mmhostels.com/"></parameter>
         <parameter name="param_amenities" value="Free Wifi, FIRE SAFETY, LIFT FACILITY, CAR PARKING, 24*7 ELECTRICITY, LAUNDRY, COOKING, AIR CONDITIONER, 24*7 WATER, ELECTRICITY INCLUDED IN RENT, FRIDGE, GYSER, CCTV, TWO WHEELER PARKING  "></parameter>
 
@@ -29,6 +29,6 @@
             <class name="mmhostels.Amenities"></class>
         </classes>
         
-    </test>-->
+    </test>
 
 </suite>

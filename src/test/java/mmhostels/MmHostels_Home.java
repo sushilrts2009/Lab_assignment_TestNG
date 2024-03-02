@@ -1,6 +1,8 @@
 package mmhostels;
 
 import action.action_class;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentReporter;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -25,6 +27,10 @@ public class MmHostels_Home extends action_class
     @Parameters("url")
     public void launch_browser(String url) throws Exception
     {
+        // Extent Reports
+
+
+
         //Objects of Page Object model Class
 
         obj_HomePage = new HomePage();
